@@ -34,3 +34,15 @@ execute as @a[tag=!notcollect,nbt={Inventory:[{id:"minecraft:diamond_ore"}]}] ru
 execute as @a[tag=!notcollect,nbt={Inventory:[{id:"minecraft:diamond_ore"}]}] run clear @s diamond_ore 1
 execute as @a[tag=!notcollect,nbt={Inventory:[{id:"minecraft:deepslate"}]}] run scoreboard players add 深層岩 infistorage 1
 execute as @a[tag=!notcollect,nbt={Inventory:[{id:"minecraft:deepslate"}]}] run clear @s deepslate 1
+execute as @a[tag=!notcollect,nbt={Inventory:[{id:"minecraft:oak_log"}]}] run scoreboard players add オークの原木 infistorage 1
+execute as @a[tag=!notcollect,nbt={Inventory:[{id:"minecraft:oak_log"}]}] run clear @s oak_log 1
+execute as @a[tag=!notcollect,nbt={Inventory:[{id:"minecraft:birch_log"}]}] run scoreboard players add シラカバの原木 infistorage 1
+execute as @a[tag=!notcollect,nbt={Inventory:[{id:"minecraft:birch_log"}]}] run clear @s birch_log 1
+execute as @a[tag=!notcollect,nbt={Inventory:[{id:"minecraft:spruce_log"}]}] run scoreboard players add マツの原木 infistorage 1
+execute as @a[tag=!notcollect,nbt={Inventory:[{id:"minecraft:spruce_log"}]}] run clear @s spruce_log 1
+execute as @a[tag=!notcollect,nbt={Inventory:[{id:"minecraft:jungle_log"}]}] run scoreboard players add ジャングルの原木 infistorage 1
+execute as @a[tag=!notcollect,nbt={Inventory:[{id:"minecraft:jungle_log"}]}] run clear @s jungle_log 1
+execute as @a[tag=!notcollect,nbt={Inventory:[{id:"minecraft:acacia_log"}]}] run scoreboard players add アカシアの原木 infistorage 1
+execute as @a[tag=!notcollect,nbt={Inventory:[{id:"minecraft:acacia_log"}]}] run clear @s acacia_log 1
+execute as @a[tag=!notcollect,nbt={Inventory:[{id:"minecraft:dark_oak_log"}]}] run scoreboard players add ダークオークの原木 infistorage 1
+execute as @a[tag=!notcollect,nbt={Inventory:[{id:"minecraft:dark_oak_log"}]}] run clear @s dark_oak_log 1
