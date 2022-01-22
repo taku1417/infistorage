@@ -12,6 +12,6 @@ execute if score #skip tk_tmp matches 0 run scoreboard players set #iscreate inf
 execute if score #skip tk_tmp matches 0 run tellraw @a {"text":"infistorage\n -初期読み込みが完了しました。"}
 #tk_tmpの削除
 scoreboard objectives remove tk_tmp
-execute if score #skip tk_tmp matches 0 run tellraw @a {"text":"[infistorage]\n","color":"aqua","text":" -初期読み込みが完了しました。良き倉庫ライフを。"}
+execute if score #skip tk_tmp matches 0 run tellraw @a [{"text":"[infistorage]\n"},{"color":"aqua","text":" -初期読み込みが完了しました。良き倉庫ライフを。"}]
 scoreboard objectives remove tk_tmp
 execute if score #iscreate infistorage matches 1 run tellraw @a {"text":"[infistorage]\n -再読み込みが完了しました。"}
