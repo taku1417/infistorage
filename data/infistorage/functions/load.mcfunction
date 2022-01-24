@@ -14,4 +14,4 @@ execute if score #skip tk_tmp matches 0 run tellraw @a {"text":"infistorage\n -�
 scoreboard objectives remove tk_tmp
 execute if score #skip tk_tmp matches 0 run tellraw @a [{"text":"[infistorage]\n"},{"color":"aqua","text":" -初期読み込みが完了しました。良き倉庫ライフを。"}]
 scoreboard objectives remove tk_tmp
-execute if score #iscreate infistorage matches 1 run tellraw @a {"text":"[infistorage]\n -再読み込みが完了しました。"}
+execute if score #iscreate infistorage matches 1 run tellraw @a {"text":"[infistorage]\n -再読み込みが完了しました。\n -現在、stock_visibleブランチの作業をしています。"}
