@@ -2,11 +2,6 @@
         {
           "function": "minecraft:set_name",
           "entity": "this",
-          "name": {
-            "score": {
-              "name": "石",
-              "objective": "infistorage"
-            }
-          }
+          "name":"dropped"
         }
       ]
